@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/edit.png</file>
+        <file>img/filter.png</file>
+        <file>img/new.png</file>
+        <file>ShopControl.qm</file>
+        <file>img/trash.PNG</file>
+        <file>img/refresh.png</file>
+        <file>app.ico</file>
+        <file>img/excel.png</file>
+        <file>img/save.png</file>
+        <file>img/card.png</file>
+    </qresource>
+</RCC>

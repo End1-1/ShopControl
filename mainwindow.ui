@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ShopControl</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QTabWidget" name="tabw"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>684</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLogin"/>
+    <addaction name="actionExit"/>
+    <addaction name="actionChange_password"/>
+    <addaction name="actionSettings"/>
+   </widget>
+   <widget class="QMenu" name="menuReport">
+    <property name="title">
+     <string>Report</string>
+    </property>
+    <addaction name="actionDocuments"/>
+    <addaction name="actionMonthly_check"/>
+    <addaction name="actionInput_documents"/>
+    <addaction name="actionStore_facts"/>
+    <addaction name="actionSale_report"/>
+    <addaction name="actionCurrent_store"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionLogs"/>
+   </widget>
+   <widget class="QMenu" name="menuIndexes">
+    <property name="title">
+     <string>Indexes</string>
+    </property>
+    <addaction name="actionGoods"/>
+    <addaction name="actionGoods_groups"/>
+    <addaction name="actionPartners"/>
+   </widget>
+   <widget class="QMenu" name="menuAction">
+    <property name="title">
+     <string>Action</string>
+    </property>
+    <addaction name="actionNew_store_document"/>
+    <addaction name="actionChange_sale"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAction"/>
+   <addaction name="menuReport"/>
+   <addaction name="menuIndexes"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLogin">
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionGoods">
+   <property name="text">
+    <string>Goods</string>
+   </property>
+  </action>
+  <action name="actionDocuments">
+   <property name="text">
+    <string>Documents</string>
+   </property>
+  </action>
+  <action name="actionLogs">
+   <property name="text">
+    <string>Logs</string>
+   </property>
+  </action>
+  <action name="actionMonthly_check">
+   <property name="text">
+    <string>Monthly check</string>
+   </property>
+  </action>
+  <action name="actionNew_store_document">
+   <property name="text">
+    <string>New store document</string>
+   </property>
+  </action>
+  <action name="actionChange_password">
+   <property name="text">
+    <string>Change password</string>
+   </property>
+  </action>
+  <action name="actionPartners">
+   <property name="text">
+    <string>Partners</string>
+   </property>
+  </action>
+  <action name="actionInput_documents">
+   <property name="text">
+    <string>Input documents</string>
+   </property>
+  </action>
+  <action name="actionStore_facts">
+   <property name="text">
+    <string>Store facts</string>
+   </property>
+  </action>
+  <action name="actionSale_report">
+   <property name="text">
+    <string>Sale report</string>
+   </property>
+  </action>
+  <action name="actionCurrent_store">
+   <property name="text">
+    <string>Current store</string>
+   </property>
+  </action>
+  <action name="actionChange_sale">
+   <property name="text">
+    <string>Change sale</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionGoods_groups">
+   <property name="text">
+    <string>Goods groups</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
